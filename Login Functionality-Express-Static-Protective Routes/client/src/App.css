@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+form{
+    background-color:#00A170;
+    display: inline-block;
+    padding: 20px;
+    color: #f1f1f1;
+    position: relative;
+    bottom: -20px;
+    }
+  form{
+      box-shadow: 10px 10px 20px #babecc,
+      -10px -10px 20px #ffffff;
+    }
+    
+
+form label{
+  display: inline-block;
+  width: 100px;
+  
+  
+}
+form label:hover{
+  background-color: red;
+  border-radius: 20px;
+
+}
+form div{
+  margin:10px;
+  background-color: #00A170;
+  border-radius: 20px;
+}
+
+
+
+button{
+  background-color:#00A170;
+  padding: 3px;
+  border-radius:10px;
+  margin: 10px;
+  color: #f1f1f1;
+  
+  
+}
+button:hover{
+  background-color: red;
+
+}
+input:hover{
+  background-color:gold;
+}
+.profilePic{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border: 2px solid deeppink;
+  margin: 3px;
+}
+body{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  background-color:#babecc;
+}
+a{
+  text-decoration: none;
+}
